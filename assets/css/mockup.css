@@ -231,3 +231,115 @@
     color: white;
     font-size: 30px;
 }
+
+#Content-bar{
+    color: #e8e8ed;
+    width: 100%;
+    height: 1000px;
+}
+
+#Content-bar .header {
+    margin-inline-start: 140px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+
+#Content-bar .header h2  {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top:10px;
+}
+
+#Content-bar .header h2 .secondary-header{
+    color: #6e6e73;
+    font-size: 28px;
+}
+
+#Content-bar .offer-scroll-offer{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+    scrollbar-width: none;
+
+}
+
+.offer-scroll-offer::-webkit-scrollbar{
+    display: none;
+}
+
+#Content-bar .card-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap:10px;
+
+
+}
+
+#Content-bar .card{
+    flex: 0 0 400px;
+    width:400px;
+    height: 600px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.20);
+    margin-left: 40px;
+    margin-right: 40px;
+    
+
+}
+
+#Content-bar .card h3 {
+    text-align: center;
+    color: black;
+    font-weight:bold;
+}
+
+#Content-bar .card p{
+    color: black;
+}
+
+.scroll-bar-warpper{
+    width:100%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.scroll-bar{
+    width: 70%;
+    height: 15px;
+    margin: 10px auto 80px auto;
+
+    background: #d0d0d0;
+    border-radius: 999px;
+
+    position:relative;
+    cursor: pointer;
+}
+
+.scroll-bar .scroll-bar-thumb{
+    height: 100%;
+    width:120px;
+
+    background: black;
+    border-radius: 999px;
+
+    position: absolute;
+    cursor: grab;
+
+    transform:translateX(0);
+    transition: left 0.18s ease, transform 0.18s ease;
+}
+
+.scroll-bar .scroll-bar-thumb.dragging{
+    transition: none;
+    cursor: grabbing;
+}
+
+.scroll-bar-thumb:active{
+    cursor:grabbing;
+}
