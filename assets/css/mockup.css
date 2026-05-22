@@ -239,9 +239,10 @@
 }
 
 #Content-bar .header {
-    margin-inline-start: 140px;
+    padding-left: 40px;
     padding-bottom: 8px;
     padding-top: 10px;
+    width: 100%;
 }
 
 #Content-bar .header h2  {
@@ -249,6 +250,7 @@
     font-weight: bold;
     font-size: 50px;
     padding-top:10px;
+    width: 100%;
 }
 
 #Content-bar .header h2 .secondary-header{
