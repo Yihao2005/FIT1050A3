@@ -411,3 +411,19 @@
 .scroll-bar-thumb:active{
     cursor:grabbing;
 }
+
+#main h2 strong{
+    color:rgb(8, 13, 157);
+}
+
+#main h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#main .actions{
+    display: flex;
+    justify-content: center;
+}
