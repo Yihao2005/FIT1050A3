@@ -313,6 +313,51 @@
     text-align: center;
 
 }
+#Content-bar .card.card1 {
+    background: url(../../images/card-1.png);
+    background-size: cover;
+}
+
+#Content-bar .card.card1 h3{
+    color: rgb(157, 8, 8);
+}
+
+#Content-bar .card.card2 {
+    background: url(../../images/card-2.png);
+    background-size: cover;
+}
+
+#Content-bar .card.card2 h3{
+    color: rgb(8, 13, 157);
+}
+
+#Content-bar .card.card3 {
+    background: url(../../images/card-3.png);
+    background-size: cover;
+}
+
+#Content-bar .card.card3 h3{
+    color: rgb(217, 110, 33);
+}
+
+#Content-bar .card.card4 {
+    background: url(../../images/card-4.png);
+    background-size: cover;
+}
+#Content-bar .card.card4 h3{
+    color: rgb(8, 107, 127);
+}
+
+#Content-bar .card.card5 {
+    background: url(../../images/card-5.png);
+    background-size: cover;
+}
+
+#Content-bar .card.card5 h3{
+    color: rgb(64, 7, 156);
+}
+
+
 
 #Content-bar .card .button-warpper{
     display: flex;
