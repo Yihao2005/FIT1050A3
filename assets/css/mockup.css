@@ -1,0 +1,233 @@
+#site-header {
+    background-color: #fdfdfd;
+    color: white;
+    padding: 20px 60px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    display: block;
+
+
+}
+
+.main-nav{
+    display: flex;
+    gap: 70px;
+}
+
+.main-nav a{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-bottom: none;
+}
+
+.main-nav a img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    display: block;
+}
+
+.main-nav a span{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.join-button{
+    background-color: #ffe600;
+    border-radius: 30px;
+    padding: 12px 26px;
+    color: black;
+    font-weight: bold;
+
+}
+
+#hero {
+    position: relative;
+    background-color: #ffe600;
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+
+.slider-window{
+    width: 75%;
+    height:500px;
+    margin:0 auto;
+    overflow: hidden;
+    border-radius:40px;
+    background-color: white;
+}
+
+.hero-image{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+}
+
+.sliderImage{
+    min-width:100%;
+    height:100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+.hero-arrow{
+    width:52px;
+    height:52px;
+    padding:0;
+
+    border-radius:50%;
+    border:2px solid black;
+
+    background: rgb(255, 255, 255);
+    color: black;
+
+    font-size: 28px;
+    font-weight: bold;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: none;
+
+    cursor: pointer;
+
+}
+
+.dot{
+    display: inline-block;
+    width: 70px;
+    height: 7px;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 0 6px; 
+}
+
+.active-dot{
+    background: black;
+}
+
+#banner {
+    background: white;
+    padding:50px 20px 50px;
+    text-align:center;
+}
+
+#banner h1{
+    font-size: 50px;
+    line-height:1.1;
+    margin: 0 0 10px 0;
+    color: black;
+    font-weight: 1000;
+
+}
+
+#banner p{
+    font-size: 25px;
+    margin: 5px 0;
+    color: black;
+}
+
+#banner .quote-author{
+    font-style: italic;
+    text-align: right;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#features{
+    background: url(../../images/Aboutus_background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 35px 50px 70px;
+    color: white;
+    border: none;
+    box-shadow: none;
+    height: 785px;
+}
+
+#features .container{
+    width: 100%;
+}
+
+#features h2{
+    text-align: center;
+    color: white;
+    font-size:50px;
+    margin: 10px 0 55px 0;
+    font-weight: bold;
+
+}
+
+#features .image.featured {
+    border:none;
+    align-items: center;
+}
+
+#features .row.aln-center {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-left: 0;
+    max-width: 100%;
+}
+
+#features .col-3.col-6-medium.col-12-small {
+    width: 350px;
+    min-height: 270px; 
+    background: rgba(0,0,0,0.82);
+    padding: 35px 25px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+#features .col-12{
+    margin: 40px;
+    border: black;
+}
+
+#features .about-img-icon {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    align-items: center;
+    border:none;
+    margin: 0 auto 22px auto;
+}
+
+#features .about-img-icon.long-icon {
+    width: 180px;
+    height: 120px;
+    margin: 0 auto 22px auto;
+}
+
+#features .col-3.col-6-medium.col-12-small h3{
+    color: white;
+    font-size: 30px;
+}
