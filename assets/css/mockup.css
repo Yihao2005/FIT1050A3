@@ -24,11 +24,24 @@
 }
 
 .main-nav a{
+    -moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+	-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+	-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+	color: black;
+	text-decoration: none;
+	border-bottom: solid 1px #ddd;
+
     display: flex;
     gap: 8px;
     align-items: center;
     border-bottom: none;
 }
+
+.main-nav a:hover {
+			color: #aa0000;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
 
 .main-nav a img{
     width: 20px;
@@ -38,7 +51,7 @@
 }
 
 .main-nav a span{
-    color: black;
+
     font-weight: bold;
     font-size: 16px;
 }
@@ -443,7 +456,8 @@
 #footer .contact-card{
     width: 90%;
     height: 800px;
-    background-color: white;
+    background:url(../../images/contactcard.png);
+    background-size: cover;
     border-radius: 40px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.20);
 }
