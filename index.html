@@ -368,14 +368,14 @@
 		<!-- Contacts -->
 		<section id="footer">
 			<div class="card-wrapper">
-				<div class="contact-card">
+				<form class="contact-card" id="contact-form">
 					<header>
 						<h2><strong>Talk to us</strong></h2>
 					</header>
 
 					<div class="prompt">
 						<h3>Please use the form below to contact us regarding any questions or feedback you may have. We will try to get back to you as quickly as possible while answering the request to the best of our ability.</h3>
-					</div class="prompt">
+					</div>
 
 					<div class ="name-query">
 						<header>
@@ -386,8 +386,8 @@
 							<h4>Last name (required)</h4>
 						</div>
 						<div class="name-form">
-							<input type="text">
-							<input type="text">
+							<input type="text", name="firstName" required>
+							<input type="text", name="lastName" required>
 						</div>
 					</div>
 
@@ -397,7 +397,7 @@
 						</header>
 		
 						<div class="email-form">
-							<input type="email">
+							<input type="email", name="email" required>
 						</div>
 					</div>
 
@@ -407,14 +407,14 @@
 						</header>
 		
 						<div class="email-form">
-							<textarea></textarea>
+							<textarea name="message" required></textarea>
 						</div>
 					</div>
 
 					<div class="submit-button-wrapper">
-						<button href="#contact" class="submit-button">Submit</button>
+						<button type="submit" class="submit-button">Submit</button>
 					</div>
-				</div>
+				</form>
 			</div>
 
 			<div id="copyright" class="container">
@@ -436,6 +436,7 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/carousel.js"></script>
 	<script src="assets/js/scrollbar.js"></script>
+	<script src="assets/js/submit.js"></script>
 
 </body>
 
