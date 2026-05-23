@@ -459,7 +459,7 @@
     width: 90%;
     height: 950px;
     background:url(../../images/contactcard.png);
-    background-size: cover;
+    background-size:cover;
     border-radius: 40px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.20);
 }
