@@ -427,3 +427,162 @@
     display: flex;
     justify-content: center;
 }
+
+#footer {
+    padding-top: 80px;
+}
+
+#footer .card-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footer .contact-card{
+    width: 90%;
+    height: 800px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.20);
+}
+
+#footer header{
+    padding: 25px;
+}
+
+#footer .contact-card strong {
+    font-size: 50px;
+    color: black;
+}
+
+#footer .prompt{
+    padding: 0 50px 10px 50px
+}
+
+#footer .prompt h3{
+    color: black;
+    text-transform: none;
+    font-weight:400;
+    margin-bottom:0;
+}
+
+#footer .name-query{
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+#footer .name-query header{
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#footer .name-query header h3{
+    font-size: 35px;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+#footer .name-req{
+    display: flex;
+    align-items: center;
+    gap:525px;
+}
+
+#footer .name-req h4{
+    font-size: 25px;
+    text-transform: none;
+}
+
+#footer .name-form{
+    display: flex;
+    align-items: center;
+    gap:370px;
+}
+
+#footer .name-form input{
+    width: 380px;
+    height: 52px;
+    box-sizing: border-box;
+
+    border:none;
+
+    border-radius: 16px;
+
+    background-color: #e8e8ed;
+
+    font-size:25px;
+    padding-left: 10px;
+}
+
+
+#footer .email-query{
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+#footer .email-query header{
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#footer .email-query header h3{
+    font-size: 35px;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+
+#footer .email-form input{
+    width: 100%;
+    height: 52px;
+    box-sizing: border-box;
+
+    border:none;
+
+    border-radius: 16px;
+
+    background-color: #e8e8ed;
+
+    font-size:25px;
+    padding-left: 10px;
+}
+
+#footer .help-query{
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+#footer .help-query header{
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#footer .help-query header h3{
+    font-size: 35px;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+#footer .email-form textarea{
+    resize: none;
+    width: 100%;
+    height: 104px;
+    box-sizing: border-box;
+
+    border:none;
+
+    border-radius: 16px;
+
+    background-color: #e8e8ed;
+
+    font-size:25px;
+    padding-left: 10px;
+}
+
+#footer .submit-button-wrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
