@@ -1535,7 +1535,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
-			margin: 0.75em 0 0.75em 0;
+			
 		}
 
 			ul li:first-child {
@@ -1941,7 +1941,7 @@ input, select, textarea {
 
 /* Nav */
 
-	#nav {
+	#main-nav {
 		position: absolute;
 		top: 3em;
 		left: 0;
@@ -1949,37 +1949,25 @@ input, select, textarea {
 		cursor: default;
 	}
 
-		#nav > ul > li {
+		#main-nav > ul > li {
 			display: inline-block;
 			padding-right: 2em;
 		}
 
-			#nav > ul > li:last-child {
+			#main-nav > ul > li:last-child {
 				padding-right: 0;
 			}
 
-			#nav > ul > li > a {
-				border: 0;
-				text-decoration: none;
-				text-transform: uppercase;
+			.main-nav > ul > li > a > span {
 				font-weight: 400;
-				color: #777;
-				outline: 0;
-				display: block;
+				color: black;
+				
 			}
 
-				#nav > ul > li > a:before {
-					display: inline-block;
-					background: #878787;
-					color: #e4e4e4;
-					width: 2.25em;
-					font-size: 0.8em;
-					height: 2.25em;
-					border-radius: 2.25em;
-					line-height: 2.1em;
-					text-align: center;
-					box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
-					margin-right: 0.75em;
+			
+
+
+				.main-nav > ul > li > a:before {
 					-moz-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
 					-webkit-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
 					-o-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
@@ -1987,29 +1975,27 @@ input, select, textarea {
 					transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
 				}
 
-				#nav > ul > li > a > span {
+				.main-nav > ul > li > a > span {
 					-moz-transition: color 0.25s ease-in-out;
 					-webkit-transition: color 0.25s ease-in-out;
 					-o-transition: color 0.25s ease-in-out;
 					-ms-transition: color 0.25s ease-in-out;
 					transition: color 0.25s ease-in-out;
-					font-size: 0.85em;
-					letter-spacing: 3px;
 				}
 
-			#nav > ul > li > ul {
+			.main-nav > ul > li > ul {
 				display: none;
 			}
 
-			#nav > ul > li.active > a:before,
-			#nav > ul > li:hover > a:before {
-				background: #ED786A;
+			.main-nav > ul > li.active > a:before,
+			.main-nav > ul > li:hover > a:before {
+				background: #870f02;
 				color: #fff;
 			}
 
-			#nav > ul > li.active > a > span,
-			#nav > ul > li:hover > a > span {
-				color: #ED786A;
+			.main-nav > ul > li.active > a > span,
+			.main-nav > ul > li:hover > a > span {
+				color: #870f02;
 			}
 
 	.dropotron {
@@ -2057,8 +2043,8 @@ input, select, textarea {
 			display: block;
 			padding: 0.3em 1em 0.3em 1em;
 			border: 0;
-			border-top: solid 1px #f0f0f0;
 			outline: 0;
+			color: black;
 		}
 
 		.dropotron li {
@@ -2071,12 +2057,12 @@ input, select, textarea {
 				padding-top: 0;
 			}
 
-			.dropotron li:hover > span, .dropotron li:hover > a {
+			.dropotron li:hover > span, .dropotron li:hover > a span {
 				-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-				color: #ed786a;
+				color: #870f02;
 			}
 
 /* Features */
