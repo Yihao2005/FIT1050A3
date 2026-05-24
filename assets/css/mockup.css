@@ -182,7 +182,7 @@
     color: white;
     border: none;
     box-shadow: none;
-    height: 785px;
+    height: 890px;
 }
 
 #features .container{
@@ -195,6 +195,7 @@
     font-size:50px;
     margin: 10px 0 55px 0;
     font-weight: bold;
+    font-family:"PT Serif Caption", sans-serif;
 
 }
 
@@ -601,4 +602,16 @@
     margin-top: 10px;
     display: flex;
     justify-content: center;
+}
+
+#main h2,h3 {
+    font-family:"IBM Plex Serif", sans-serif;
+}
+
+#footer h2 strong{
+    font-family:"IBM Plex Serif", sans-serif;
+}
+
+#banner h1{
+    font-family:"PT Serif Caption", sans-serif;
 }

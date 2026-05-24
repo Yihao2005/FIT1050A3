@@ -192,6 +192,7 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin-bottom: 2em;
+		font-family:"PT Serif Caption", sans-serif;
 	}
 
 	ul, ol, dl, table, blockquote {
@@ -1605,8 +1606,8 @@ input, select, textarea {
 		ul.divided li {
 			border-top: solid 2px #e5e5e5;
 			padding-left: 0;
-			margin: 2.5em 0 0 0;
-			padding: 2.5em 0 0 0;
+			margin: 1.5em 0 0 0;
+			padding: 1.5em 0 0 0;
 		}
 
 			ul.divided li:first-child {
